@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    padding: 0;
+    position: fixed; /* Permite que la pagina no tenga scroll incluyendo top, botton, left, right*/
+    top:0;
+    bottom: 0;
+    right:0;
+    left: 0;
+    background-image: url("../Assets/Imágenes/background.jpg")
+}
+a{
+    text-decoration: none;
+    display: inline;
+    color:black;
+}
+header{
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+header .header-icons-container{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #47cfac;
+}
+header .header-icons-container .icons{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 10px;
+}
+header  .icons span{
+    color: white;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height:90px;
+}
+
+nav .nav-logo-container{
+    margin-left:50px;
+}
+nav .nav-logo-container img{
+    width: 220px;
+    margin-top: 10px;
+}
+nav .profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+nav .profile-link a{
+    color: white;
+    border-bottom: 1px solid #fefefe;
+}
+main{
+    height: 100%;
+}
+
+main .texto-principal-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+main .texto-principal{
+    width: 600px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+main .btn-entrar-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .btn-entrar-content button{
+    width: 150px;
+    height: 65px;
+    background-color: #5bcfae;
+    font-size: 20px;
+    border-radius: 2px;
+}
