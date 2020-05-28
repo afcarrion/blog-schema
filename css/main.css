@@ -6,7 +6,6 @@ body{
     bottom: 0;
     right:0;
     left: 0;
-    background-image: url("../Assets/Imágenes/background.jpg")
 }
 a{
     text-decoration: none;
@@ -61,10 +60,14 @@ nav .profile-link a{
     color: white;
     border-bottom: 1px solid #fefefe;
 }
-main{
+.body-img{
+    height: 100%;
+    background-image: url("../Assets/Imágenes/background.jpg");
+    background-size: cover;
+}
+main .home-main{
     height: 100%;
 }
-
 main .texto-principal-content{
     display: flex;
     align-items: center;
